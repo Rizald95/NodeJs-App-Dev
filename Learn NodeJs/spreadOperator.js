@@ -5,6 +5,12 @@ const allFavorites = [favorites, others];
 
 console.log(allFavorites);
 
+/* output
+[ 'Seafood', 'Salad', 'Nugget', 'Soup', 'Cake', 'Pie', 'Donut' ]
+*/
+
+
+
 const allSpreadFavorites = [...favorites, ...others];
 console.log(allSpreadFavorites);
 
